@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Domine/Domine-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/Cormorant/Cormorant-Light.ttf);
+}
+
+.container{
+    background-image: linear-gradient(to top right,#4848b9,#25d7ffcf);
+    padding-top: 10px;
+    height: 779px;
+}
+
+.container #navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.container #navbar .title span{
+    font-size: 23px;
+    color: white;
+}
+
+.container #navbar .menu{
+    margin-left: 700px;
+    margin-top: 4px;
+}
+
+.container #navbar .contact{
+    margin-left: 30px;
+}
+
+.container #navbar .menu ol{
+    display: flex;
+    list-style: none;
+}
+
+.container #navbar .menu ol li{
+    margin-left: 30px;
+}
+
+.container #navbar .menu ol li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.container #navbar .contact {
+    margin-left: 30px;
+    border: 1px solid #ffffff91;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.container #navbar .contact a{
+    color: white;
+    text-decoration: none;
+}
+
+.container #body{
+    display: flex;
+    margin-left: 460px;
+    margin-top: 180px;
+}
+
+.container #body .left-side span{
+    color: white;
+    font-size: 50px;
+}
+
+.container #body .left-side p{
+    color: white;
+    font-size: 25px;
+    font-family: mySecondFont;
+}
+
+.container #body .left-side p a{ 
+    text-decoration: none;
+    color: rgb(203 203 203);
+    font-family: mySecondFont;
+}
+
+.container #body .left-side p span{
+    color: rgb(203 203 203);
+    font-size: 25px;
+    font-family: mySecondFont;
+}
+
+.container #body .left-side button{
+    padding: 10px 36px 10px 31px;
+    background-color: #10b110;
+    border-color: transparent;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.container #body .left-side button a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.container #body .right-side{
+    margin-left: 180px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 15px #5a5656;
+    padding: 45px;
+}
+
+.container #body .right-side label{
+    font-size: 32px;
+    margin-left: 33px;
+}
+
+.container #body .right-side input{
+    margin-top: 17px;
+    background-color: #f7f6f6;
+    border-color: transparent;
+    padding: 7px 100px 7px 7px;
+}
+
+.container #body .right-side select{
+    margin-top: 17px;
+    background-color: #f7f6f6;
+    border-color: transparent;
+    padding: 7px 209px 7px 7px;
+}
+
+.container #body .right-side button{
+    margin-top: 17px;
+    padding: 7px;
+    width: 288px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #0089ff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#footer{
+    background-color: white;
+    margin-top: 150px;
+    width: 1919px;
+    height: 73px;
+    transform: rotate(-2deg);
+}
+
+
